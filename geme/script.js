@@ -82,23 +82,23 @@ function setup() {
                 let grE = new GrassEater(x, y)
                 grassEaterArr.push(grE)
             } else if (matrix[y][x] == 3) {
-                let grE = new Predator(x, y)
-                predatorArr.push(grE)
+                let pr = new Predator(x, y)
+                predatorArr.push(pr)
             } else if (matrix[y][x] == 4) {
-                let grE = new Amenaker(x, y)
-                amenakerArr.push(grE)
+                let am = new Amenaker(x, y)
+                amenakerArr.push(am)
             }
             else if (matrix[y][x] == 5) {
-                let grE = new sunk(x, y)
-                SunkArr.push(grE)
+                let su= new sunk(x, y)
+                SunkArr.push(su)
             }
             else if (matrix[y][x] == 6) {
-                let grE = new Wall(x, y)
-                grassWall.push(grE)
+                let wa = new Wall(x, y)
+                grassWall.push(wa)
             }
             else if (matrix[y][x] == 7) {
-                let grE = new boomb(x, y)
-                grassBoomb.push(grE)
+                let bom = new boomb(x, y)
+                grassBoomb.push(bom)
             }
         }
     }

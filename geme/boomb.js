@@ -29,8 +29,8 @@ class boomb extends LivingCreature {
         var newY = newCell[1];
         matrix[newY][newX] = 2;
 
-        var newGr = new  boomb(newX, newY);
-        grassBoomb.push(newGr);
+        var newbo = new  boomb(newX, newY);
+        grassBoomb.push(newbo);
         this.multiply = 0;
     }
 }

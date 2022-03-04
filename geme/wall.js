@@ -39,8 +39,8 @@ class Wall {
             var newY = newCell[1];
             matrix[newY][newX] = 1;
 
-            var newGrass = new Wall(newX, newY);
-            SunkArr.push(newGrass);
+            var newwa = new Wall(newX, newY);
+            SunkArr.push(newwa);
             this.multiply = 0;
         }
     }

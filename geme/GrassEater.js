@@ -29,8 +29,8 @@ class GrassEater extends LivingCreature {
             var newY = newCell[1];
             matrix[newY][newX] = 2;
 
-            var newGr = new GrassEater(newX, newY);
-            grassEaterArr.push(newGr);
+            var newpr = new GrassEater(newX, newY);
+            grassEaterArr.push(newpr);
             this.multiply = 0;
         }
     }

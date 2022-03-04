@@ -31,8 +31,8 @@ class Amenaker extends LivingCreature {
             var newY = newCell[1];
             matrix[newY][newX] = 4;
 
-            var newGr = new Amenaker(newX, newY);
-            amenakerArr.push(newGr);
+            var newam= new Amenaker(newX, newY);
+            amenakerArr.push(newam);
             this.multiply = 0;
         }
     }

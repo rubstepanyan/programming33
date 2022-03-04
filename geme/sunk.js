@@ -39,8 +39,8 @@ class sunk {
             var newY = newCell[1];
             matrix[newY][newX] = 1;
 
-            var newGrass = new sunk(newX, newY);
-            SunkArr.push(newGrass);
+            var newsu= new sunk(newX, newY);
+            SunkArr.push(newsu);
             this.multiply = 0;
         }
     }
